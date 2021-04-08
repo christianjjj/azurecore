@@ -17,5 +17,7 @@ namespace Proyecto.DTOs.Actor
         [PesoArchivoValidacion(PesoMaximoEnMegaBytes: 1)]
         [TipoArchivoValidacion(grupoTipoArchivo: GrupoTipoArchivo.Imagen)]
         public IFormFile Foto { get; set; }
+
+
     }
 }
