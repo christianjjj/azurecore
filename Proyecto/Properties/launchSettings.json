@@ -1,0 +1,34 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:58963",
+      "sslPort": 44325
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "Vault": "https://almacenesllaveseliminar.vault.azure.net/",
+        "ClientSecret": "b-.wFh7I4408R6l0wyvi-.-bkDlSvHRMIB",
+        "ClientId": "a857d421-b101-4296-aed5-3304a7931327",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Proyecto": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": "true",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
